@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sincere-idea-402607",
+  "private_key_id": "a9724c9ac3cddffecebd7a0a2005d3d54ca4032a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCmixSylmvUL6C4\ncKpfe/Ugh4o9wLYTbGZsybAk9f2/wzhBe9KYZkvMWeB5fiABebGde4B0BANTNYmt\njrVOuXe2fClKZ8IDK0unqJ4RaUsjPoWpC/fKwd/GruB2/XS4OjrB1e1qbzOty6Kz\nsbGUYe1/Fv0toqM2p+VobDmXQQWs3w4k5jEY3P6WokjDDLYCqBLbvjlpCXVenrRp\nor/tk1iV/d8ik2RFX8zdvoNBQfFwf94bCn93LpS+sblGjRlnbnKWlp95cXqYG63u\nEpjWs4R8dtRba9tnCypuMpvL/SKfQnXzC6VZfuDjNDhEM3X3usXr/KMVBs5Xf2oA\njuh+BTX1AgMBAAECggEAJpotKXnZM3z4pVej/e7W8fvIrKia62SgVw3msKJ99vFS\nfEctmJp5bjvU3oQ/+eeRpj2GmB2IAcTyjRJ7buxpVZhw36iuHRrvdcSNIt8Dhf9L\nbtPx0wLeEgjdyWbVI5CHpv8lgRqWYW3GYB1LWmfaay9Sbr34U8ZV077mGGt/W8KW\nDCrkhj0Du55edFJNHIzQKSy2k9+5ZKDNYxkLglRwuFuCk/2jbcgGB82DDJCTWg2h\niPyO9E0Sy1n+NRjl4ZdaLN+7Ktqwva6E4+x/2gtlpSTzXt6ZtcjK+35aqH5wsUBC\n/TDKemUrtbouwP7Mnhq78/ccJ7BpE8K2mi1Uocs5cQKBgQDYILTHepeWwMws0P87\n4ygPbrRlBgTtmwbywLMG25tFOh5gObSh5CKC4DFKF7R2vrMYZDzLpqJld4ob9ov2\n63GCg7zy3A57L5XR/QK2VaXgtsxCaU7SKpe6or0tXhLADBIzKmt/i23RSijjrCG7\nhx8+IKhCnFm9/fn7NknmzNUHiQKBgQDFRJisgzjTWlao7E002Cfaiqi2SViWN7iV\nzXc1Ocacvrfie8M04u4AIv00AQ282O6YFWVTmvSrX6UskRziCBaoqkooET4Y5EJN\n26cS1jSZjwlu7/tnwY+6T/LP+8EPKwPED6NL2L2DH9eGl8GvTUly3kvSdSTwzHWx\n2T6HrUw0DQKBgGqMbTMub88lS0MI4dtvWE+LXymytvlAhUNl1pyZ5UlSpqj/qdpp\n8s2coxAI8bHcv8RVnlcz1jm5nf+9IzFezz3tnlgIPqdiRTUZy52CSd2noLlY2z/n\nOZgMJMFZ8Fp3WP2aexaM8V3Ndq0PLi4aJj/lr63vEJsGu5eqIvLCpn8pAoGAPbSb\nXTsex132xZhE/kavELlW1M5Um4iKgLFonImaCuXNd1bnVN+3Ouu28FF0DqJ8362x\nqFlMN18Pt8Ucl8eX7uJ1l9rs5bRg2SHgPRAsG+yWMtF2fpoZb1oaxdwmI6x83RNX\nLR57CU0oib1mpIM0em32obpq97e9CQi/eolG0PECgYBkrT6kUooXZ4V/R4v13uRy\nArMuSi0JWdoq0SVQ3/eUoIxy2TBdaKmJKBpMZlm4+4+hgqHWJVmQ+bGprJ6943qQ\n40zGIL/1JNCy2uWS3Xm6rwEL505dS65X8KSrfUz5Qp50WZMbKcfYoPnz6JhfGier\nvEY2bWAy9fT12/SdPH+FFA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "genaihackathon@sincere-idea-402607.iam.gserviceaccount.com",
+  "client_id": "101391910682381485765",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/genaihackathon%40sincere-idea-402607.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

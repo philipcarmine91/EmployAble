@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Recorder</title>
+</head>
+<body>
+    <h1>Voice Recorder</h1>
+    <form method="POST" action="/record">
+        <input type="submit" name="action" value="start" id="start-button">
+        <input type="submit" name="action" value="stop" id="stop-button" style="display: none;">
+    </form>
+    <div id="transcript">
+        Transcript: {{ transcript }}
+    </div>
+    <script>
+        document.getElementById('start-button').addEventListener('click', function() {
+            document.getElementById('start-button').style.display = 'none';
+            document.getElementById('stop-button').style.display = 'block';
+            document.getElementById('transcript').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

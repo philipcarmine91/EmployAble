@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Recorder</title>
+</head>
+<body>
+    <h1>Audio Recorder</h1>
+    <h2>Please list all your previous work experience, including what the resposibility of your role was, as well as the month and year that you started and finished</h2>
+    <form action="/start" method="POST">
+        <button type="submit" name="start">Start Recording</button>
+    </form>
+    <form action="/stop" method="POST">
+        <button type="submit" name="stop">Stop Recording</button>
+    </form>
+    <div id="transcription"></div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const transcriptionDiv = document.getElementById('transcription');
+        const stopButton = document.querySelector('form[action="/stop"] button[name="stop"]');
+
+        stopButton.addEventListener('click', async (event) => {
+            event.preventDefault();
+
+            // Send a POST request to the /stop route
+            const response = await fetch('/stop', {
+                method: 'POST',
+                body: new FormData(event.target.form),
+            });
+
+            if (response.status === 200) {
+                const data = await response.json();
+
+                // Update the transcriptionDiv with the transcription result
+                transcriptionDiv.innerHTML = `<p>Transcription: ${data.transcription}</p>`;
+            }
+        });
+    });
+</script>
+</html>

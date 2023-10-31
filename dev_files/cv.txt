@@ -1,0 +1,27 @@
+                                                                                                                                                                                                                                                                                                                                                                                             
+
+ 
+
+</pre>
+
+The chatbot works by feeding a bunch of examples (in this case, the information embedded in the CV) into an LSTM (a type of neural network) and the chatbot responds with the most likely response based on the information provided and the LSTM.
+
+Chatting with the chatbot is similar to a natural conversation. In order to respond to the chatbot, it is necessary to match the information in the chatbot's response to the information in your message. For example, if the chatbot responds:
+
+"Hello Philip, I love computer games. Do you?"
+
+And you respond:
+
+"Yes, I do. I like to play the new Call of Duty game."
+
+The chatbot will respond with:
+
+"You like to play the new Call of Duty game? I like to play the old Call of Duty game. It was better."
+
+The chatbot will match the word "game" with the word "game", and "new" with "new" and "old" with "old". In order to chat with the chatbot, you have to use the same words in the same order.
+
+In this example, the chatbot is trained to respond to a CV (a set of information related to a job application). It is possible to train the chatbot to respond to a wide range of different topics.
+
+The chatbot is trained using reinforcement learning. The chatbot is trained to respond to a particular data set, in this case, a CV. The chatbot is then tested on other data sets in order to see how well it can respond. The chatbot is evaluated using a function that measures how likely a response is to be correct. If the chatbot's response is correct, it is rewarded. If the response is incorrect, it is punished. The chatbot is then trained using the rewards and punishments. The chatbot is then tested on other data sets. This process is repeated over and over again, many many times, until the chatbot is able to respond to a wide range of data sets.
+
+One of the main advantages of reinforcement learning is that the reward function can be manipulated in order to get the desired behavior. For example, if you want to get the chatbot to respond to the word "I", you can give the chatbot a very high reward when it responds to the word "I". This will cause the chatbot to give a high score to the word "I". Then, when the chatbot responds to a message, it will have a high probability of responding to the word "I".
