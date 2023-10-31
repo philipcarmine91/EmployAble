@@ -101,7 +101,7 @@ def generate_cover_letter(cv, job_description):
     engine.say("I am now generating your cover letter, this may take a few moments")
     engine.runAndWait()
     # Set your OpenAI API key
-    api_key = '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'
+    api_key = 'INSERT YOUR OPEN AI API KEY HERE' 
     
     openai.api_key = api_key
     
@@ -152,7 +152,7 @@ def generate_cover_letter(cv, job_description):
     return cover_letter
 
 def compare_cv_job_description(cv, job_description):
-    api_key = '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'
+    api_key = 'INSERT YOUR OPEN AI API KEY HERE'
     
     openai.api_key = api_key
     print("I am just going to compare your CV to the job description and see how well matched you are for the position. This might take a moment")
@@ -180,7 +180,7 @@ def compare_cv_job_description(cv, job_description):
     return ai_reply, conversation
 
 def comparison_question(assistant_reply, messages, cv, job_description):
-    api_key = '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'
+    api_key = 'INSERT YOUR OPEN AI API KEY HERE'
     
     openai.api_key = api_key
     comparison_q = question_and_response("What would you like to know?", "recorded_audio.wav")
@@ -196,7 +196,7 @@ def comparison_question(assistant_reply, messages, cv, job_description):
     return assistant_reply, messages
 
 def ammend_cover_letter(messages, assistant_reply, cv, job_description):
-    api_key = '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'
+    api_key = 'INSERT YOUR OPEN AI API KEY HERE'
     
     openai.api_key = api_key
     requested_ammendment = question_and_response("What changes would you like to make to the Cover Letter generated?", "recorded_audio.wav")
@@ -212,7 +212,7 @@ def ammend_cover_letter(messages, assistant_reply, cv, job_description):
     return assistant_reply, messages
 
 def get_company_name(job_description):
-    api_key = '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'
+    api_key = 'INSERT YOUR OPEN AI API KEY HERE'
     
     openai.api_key = api_key
     
@@ -235,7 +235,7 @@ def get_company_name(job_description):
     return ai_reply
 
 def get_applicant_name(cv):
-    api_key = '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'
+    api_key = 'INSERT YOUR OPEN AI API KEY HERE'
     
     openai.api_key = api_key
     

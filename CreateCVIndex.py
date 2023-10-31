@@ -100,7 +100,7 @@ def CV_generator(name, dob, address, phone, email, qualifications, work_experien
     print('Please wait while I generate you CV. This may take a moment.')
     engine.say('Please wait while I generate you CV. This may take a moment.')
     # Set your API key
-    api_key = "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"
+    api_key = "INSERT YOUR OPEN AI API KEY HERE"
     openai.api_key = api_key
 
     # Define the conversation
